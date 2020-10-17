@@ -1,0 +1,49 @@
+Bienvenido
+
+Este proyecto consiste en tres juegos creados a partir de python y la libreria pygame, .
+El objetivo es atender la situacion "como se pueden usar los programas 
+computacionales en el proceso de aprendizaje y como podemos ayudar a los mas jovenes a reforazar 
+sus conocimientos y hablidades en esta area".
+
+Instrucciones de cada juego:
+
+- Juego de Dados:
+
+#########Presiona BARRA ESPACIADORA para tirar#########
+
+Este juego consiste en dos jugadores que por turnos lanzaran 5 dados virtuales, 
+si al menos 3 de los 5 dados salen iguales se ganara un punto y teniendo en cuenta los siguientes 
+paramentros por cada turno:
+
+* Si la primera tirada no tiene ninguna coincidencia el jugador puntua 0 puntos y pasa el turno al
+  siguiente jugador.
+* Si la tirada inicial tiene una pareja el jugador puede volver a tirar los tres dados restantes.
+* Si en el caso de esta segunda tirada no hay al menos un trio juntando todos los dados, el jugador
+  puntúa 0 puntos y pasa el turno al siguiente jugador.
+* En el caso de que la tirada tenga al menos un trio o mas se puntuara acorde a la tabla de
+  puntos descrita mas abajo.
+* Al final de 4 rondas quien tenga mayor puntuacion sera el ganador del juego.
+* Generar un archivo de texto con un resumen de su participación en el juego.
+
+La puntuacion segun el resultado se da de la siguiente manera:
+
+* 3 dados iguales = 3 puntos
+* 4 dados iguales = 6 puntos
+* 5 dados iguales = 12 puntos
+
+- Juego de Numero Aleatorios:
+
+El objetivo de este juego es sumar dos numeros aleatorios, al inicio de este juego 
+le pregunta al jugador cuantas sumas desea resolver, el juego cuenta con 3 nivles de dificultad:
+
+* Facil se te proporcionaran dos numeros aleatorios entre 1 y 100
+* Mediano se te proporcionaran dos numeros aleatorios del 1 al 500
+* Dificil se te proporcionaran dos numeros aleatorios del 1 al 1000
+
+Finalmente se indicara la puntuacion y, en caso de haber, las vidas restantes.
+
+- Juego Extra:
+
+El objetivo del juego extra consiste en adivinar un numero aleatorio entre 1 y 25 el jugador 
+tiene 3 intentos para adivinar y cada vez el programa le dira de alguna manera si el numero 
+que debe adivinar es mayor o menor que el que se ingreso.
